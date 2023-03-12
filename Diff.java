@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Sum{
+public class Diff{
 	
 	public static void main(String args[])throws IOException{
 	
@@ -12,9 +12,9 @@ public class Sum{
 		System.out.print("\nEnter the second number : ");
 		int second = Integer.parseInt(br.readLine());
 		
-		int sum=first+second;
+		int difference=first-second;
 		
-		System.out.print("\nThe Sum of "+first+" and "+second+" is : "+sum);
+		System.out.print("\nThe Difference of "+first+" and "+second+" is : "+difference);
 		
 	}
 	
