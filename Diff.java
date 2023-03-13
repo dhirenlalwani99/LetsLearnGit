@@ -14,7 +14,7 @@ public class Diff{
 		
 		int difference=first-second;
 		
-		System.out.print("\nThe Difference of "+first+" and "+second+" is : "+difference);
+		System.out.print("\nThe Difference between "+first+" and "+second+" is : "+difference);
 		
 	}
 	
